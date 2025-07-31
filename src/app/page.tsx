@@ -1,5 +1,5 @@
-import EvenGoatsAgencySite from "./EvenGoatsAgencySite";
+import EvenGoatsHero from "./EvenGoatsHero";
 
 export default function Page() {
-  return <EvenGoatsAgencySite />;
+  return <EvenGoatsHero />;
 }
