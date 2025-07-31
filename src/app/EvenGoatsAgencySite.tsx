@@ -1,5 +1,5 @@
 "use client";
-
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Head from "next/head";
 
@@ -105,7 +105,7 @@ export default function EvenGoatsAgencySite() {
                 className="bg-gray-800 rounded-xl p-6 shadow-xl"
               >
                 <p className="text-gray-300 mb-4">
-                  "Even GOATS completely transformed our online presence. Highly recommend!"
+                  &quot;Even GOATS completely transformed our online presence. Highly recommend!&quot;
                 </p>
                 <h4 className="font-bold">Client {t}</h4>
               </motion.div>
@@ -115,7 +115,7 @@ export default function EvenGoatsAgencySite() {
 
         {/* Contact Section */}
         <section id="contact" className="py-20 px-10 bg-black text-center">
-          <h2 className="text-4xl font-bold mb-6">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold mb-6">Let&apos;s Work Together</h2>
           <p className="text-gray-300 mb-6">
             Ready to create amazing content and grow your brand?
           </p>
